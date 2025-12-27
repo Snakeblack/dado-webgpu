@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebGPU Realistic Dice</title>
+</head>
+
+<body>
+  <div id="app">
+    <!-- Result Display Area (Top/Above Card) -->
+    <div id="result-display-area">
+      <div id="result-overlay"></div>
+    </div>
+
+    <main>
+      <div class="dice-card">
+        <div id="canvas-wrapper">
+          <!-- Canvas injected here -->
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="roll-btn">Lanzar Dado</button>
+      </div>
+    </main>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
